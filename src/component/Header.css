@@ -1,0 +1,26 @@
+header{
+  position: sticky;
+  background: rgb(244, 247, 248);
+  padding: 10px;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: rgb(69, 71, 71);
+}
+
+.header-section{
+  margin: 5px;
+
+}
+
+.header-section ul{
+  list-style: none;
+}
+
+.header-section ul li{
+  margin-bottom: 10px;
+}
+
+.header-section p{
+  margin-bottom: 15px;
+  line-height: 15px;
+}

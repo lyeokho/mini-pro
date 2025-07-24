@@ -1,7 +1,10 @@
 
+
 import './App.css'
-import Footer from './component/footer'
+import Footer from './component/Footer'
 import video from '/185711-876210645.mp4'
+import Header from './component/Header'
+
 
 
 
@@ -10,13 +13,24 @@ function App() {
   return (
     
     <>
-    <header />
+
+
+    <Header />
+
+    <div className='main'>
     <video autoPlay loop muted>
       <source src={video} type='video/mp4'/>
     </video>
+
     <div className='mainName'>
-    <h1>KindEarth</h1>
+    <p onClick>KindEarth</p>
     </div>
+    </div>
+
+
+
+
+    <Footer />
 
     
     </>
