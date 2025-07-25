@@ -1,33 +1,40 @@
 
-
 import './App.css'
 import Footer from './component/Footer'
 import video from '/185711-876210645.mp4'
 import Header from './component/Header'
-
+import Shop from './page/Shop'
+import Cart from './page/Cart'
+import Social from './page/Social'
+import Signin from './page/Signin'
+import { Route, Routes } from 'react-router-dom'
 
 
 
 function App() {
 
   return (
-    
+  
     <>
-
-
     <Header />
 
-    <div className='main'>
+  <Routes>
+   <Route path='/App' element={<div className='main'>
     <video autoPlay loop muted>
       <source src={video} type='video/mp4'/>
     </video>
-
-    <div className='mainName'>
-    <p onClick>KindEarth</p>
+    <div className='mainTitle'>
+    <h1 onClick={()=>Navigate('/s')}>KindEarth</h1>
     </div>
-    </div>
+    </div>} />
 
-
+    <Route path='/shop' element={<Shop/>} />
+    <Route path='/cart' element={<Cart/>} />
+    <Route path='/social' element={<Social/>} />
+    <Route path='/signin' element={<Signin/>} />
+  
+  </Routes>
+    
 
 
     <Footer />

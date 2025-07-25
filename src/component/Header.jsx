@@ -1,23 +1,22 @@
+
+import { Link, useNavigate } from 'react-router-dom'
 import './Header.css'
 
-
 function Header(){
+  const navigate = useNavigate();
 
   return(
 
     <>
-    <header className="header">
-      <div className="header-section">
-      <ul>
-        <li>PRODUCT</li>
-        <li>CART</li>
-        <li>LOGIN</li>
-      </ul>
-      </div>
-    </header>
-
-
-    
+    <div className='header'>
+  <div className="header-section">
+    <Link to='/App'>HOME</Link>
+    <Link to='/shop'>SHOP</Link>
+    <Link to='/cart' >CART</Link>
+    <Link to='/social' >SOCIAL</Link>
+    <Link to='/signin' >SIGNIN</Link> 
+  </div>
+    </div>
     </>
 
   )

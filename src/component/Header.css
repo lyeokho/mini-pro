@@ -1,26 +1,28 @@
-header{
-  position: sticky;
-  background: rgb(244, 247, 248);
-  padding: 10px;
-  font-size: 12px;
-  font-family: sans-serif;
-  color: rgb(69, 71, 71);
+.header{
+  position: fixed;
+  width: 100%;
+  background-color: whitesmoke;
+  z-index: 1000;
+
 }
 
 .header-section{
-  margin: 5px;
-
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 30px;
 }
 
-.header-section ul{
-  list-style: none;
+.header-section a{
+ 
+  text-decoration: none;
+  color: rgb(145, 146, 146);
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px 12px;
 }
 
-.header-section ul li{
-  margin-bottom: 10px;
-}
+.header-section a:hover{
+  color: blue;
 
-.header-section p{
-  margin-bottom: 15px;
-  line-height: 15px;
 }
