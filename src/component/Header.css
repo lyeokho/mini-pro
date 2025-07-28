@@ -1,0 +1,28 @@
+.header{
+  position: fixed;
+  width: 100%;
+  background-color: whitesmoke;
+  z-index: 1000;
+
+}
+
+.header-section{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 30px;
+}
+
+.header-section a{
+ 
+  text-decoration: none;
+  color: rgb(145, 146, 146);
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px 12px;
+}
+
+.header-section a:hover{
+  color: blue;
+
+}

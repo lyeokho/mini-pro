@@ -1,1 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+
+
+.main{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+video{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+
+}
+
+.mainTitle{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(241, 227, 210);
+  font-size: 3vw;
+  text-align: center;
+  z-index: 1;
+}
+
+.mainTitle h1{
+  font-weight: bolder;
+  font-size: 50px;
+}
