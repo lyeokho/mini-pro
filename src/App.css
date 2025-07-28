@@ -5,7 +5,6 @@
 }
 
 
-
 .main{
   position: relative;
   width: 100%;
@@ -30,6 +29,7 @@ video{
   top: 0;
   display: flex;
   justify-content: center;
+  
   align-items: center;
   color: rgb(241, 227, 210);
   font-size: 3vw;
@@ -38,6 +38,7 @@ video{
 }
 
 .mainTitle h1{
-  font-weight: bolder;
-  font-size: 50px;
+  font-weight: 100px;
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
