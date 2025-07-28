@@ -13,7 +13,7 @@ function Header(){
     <Link to='/App'>HOME</Link>
     <Link to='/shop'>SHOP</Link>
     <Link to='/cart' >CART</Link>
-    <Link to='/social' >SOCIAL</Link>
+    <Link to='/social' >ABOUT</Link>
     <Link to='/signin' >SIGNIN</Link> 
   </div>
     </div>

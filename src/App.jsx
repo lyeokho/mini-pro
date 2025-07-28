@@ -5,7 +5,7 @@ import video from '/185711-876210645.mp4'
 import Header from './component/Header'
 import Shop from './page/Shop'
 import Cart from './page/Cart'
-import Social from './page/Social'
+import About from './page/About'
 import Signin from './page/Signin'
 import { Route, Routes } from 'react-router-dom'
 
@@ -30,7 +30,7 @@ function App() {
 
     <Route path='/shop' element={<Shop/>} />
     <Route path='/cart' element={<Cart/>} />
-    <Route path='/social' element={<Social/>} />
+    <Route path='/about' element={<About/>} />
     <Route path='/signin' element={<Signin/>} />
   
   </Routes>

@@ -12,20 +12,22 @@ function Login(){
   return(
 
     <>
+ <div className='login-form'>   
   <div className="login-container">
     <h2>LOGIN OR CREATE AN ACCOUNT</h2>
 
     <input 
-    type="text" 
-    placeholder="아이디"
-    value={pw}
-    onChange={(e)=>setPw(e.target.value)}/>
-    <input 
-    type="text" 
-    placeholder="패스워드"
-    value={id}
-    onChange={(e)=>setId(e.target.value)}/>
-    
+          type="text" 
+          placeholder="아이디"
+          value={id}
+          onChange={(e)=>setId(e.target.value)}
+        />
+        <input 
+          type="password" 
+          placeholder="패스워드"
+          value={pw}
+          onChange={(e)=>setPw(e.target.value)}
+        />
     <div className="login-btn">
       <button>LOG IN</button>
     </div>
@@ -39,9 +41,8 @@ function Login(){
     <div className="cacao-btn">
       <button>카카오계정 로그인</button>
     </div>
-
   </div>
-
+</div>
 
 
  

@@ -1,3 +1,59 @@
-.signin-header{
-  
+.login-form{
+justify-content: center;
+align-items: center;
+display: flex;
+height: 100vh;
+background:  rgb(244, 247, 248);
+
+}
+
+.login-container{
+  background: white;
+  padding: 40px 50px;
+  width: 450px;
+  align-items: center;
+  text-align: center;
+}
+
+.login-container h2{
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.login-container input{
+  justify-content: center;
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  border: 0.5px solid rgb(224, 219, 219);
+  border-radius: 10px;
+}
+
+.login-container button{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.login-container button:hover{
+  background: rgb(232, 239, 243);
+}
+
+.login-btn button{
+  background: whitesmoke;
+}
+.create-btn button{
+  background-color: whitesmoke;
+}
+
+.naver-btn button{
+  background-color: rgb(53, 233, 68);
+}
+
+.cacao-btn button{
+  background-color: rgb(247, 247, 81);
 }
