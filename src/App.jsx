@@ -24,7 +24,7 @@ function App() {
       <source src={video} type='video/mp4'/>
     </video>
     <div className='mainTitle'>
-    <h1 onClick={()=>Navigate('/s')}>KindEarth</h1>
+    <h1 onClick={()=>Navigate('/')}>KindEarth</h1>
     </div>
     </div>} />
 
