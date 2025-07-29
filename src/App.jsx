@@ -8,10 +8,16 @@ import Cart from './page/Cart'
 import About from './page/About'
 import Signin from './page/Signin'
 import { Route, Routes } from 'react-router-dom'
+import { useState } from 'react'
+import Modal from './Modal'
+import './Modal.css'
 
 
 
 function App() {
+  const[modalOpen, setModalOpen]=useState(false);
+
+
 
   return (
   
@@ -23,9 +29,15 @@ function App() {
     <video autoPlay loop muted>
       <source src={video} type='video/mp4'/>
     </video>
+
     <div className='mainTitle'>
-    <h1 onClick={()=>Navigate('/')}>KindEarth</h1>
+    <h1 onClick={()=>setModalOpen(true)}>KindEarth</h1>
     </div>
+
+    <Modal isOpen={modalOpen} isClose={()=>setModalOpen(false)}>
+      <span>🐢KindEarth에 오신걸 환영합니다</span>
+    </Modal>
+
     </div>} />
 
     <Route path='/shop' element={<Shop/>} />
