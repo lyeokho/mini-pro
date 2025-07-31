@@ -33,6 +33,7 @@ video{
   align-items: center;
   color: rgb(241, 227, 210);
   font-size: 3vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
   z-index: 1;
 }

@@ -1,4 +1,5 @@
 
+import ScrollBtn from '../component/ScrollBtn';
 import './About.css'
 
 
@@ -60,6 +61,7 @@ function About(){
         </div>
        </div>
       </section> 
+        <ScrollBtn />
     </div>
     </>
   )
