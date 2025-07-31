@@ -5,6 +5,8 @@
   background-color:rgb(244, 247, 248);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   justify-content: center;
+  display: grid;
+
   
 }
 
@@ -14,10 +16,12 @@
   padding: 20px;
   text-align: center;
   background-color:rgb(252, 251, 247);
+  
+   
 }
 
 .about-part:hover{
-  transform: translate(1px)
+  transform: translate(-2px);
 }
 
 .about-lmg{

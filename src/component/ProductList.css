@@ -1,0 +1,73 @@
+.product-list{
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+  gap: 15px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  background: rgb(252, 251, 247);
+
+}
+
+.product-card{
+  border: 1px solid rgb(244, 247, 248);
+  background-color: rgb(252, 251, 247);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+
+}
+.product-card:hover{
+  transform: translate(-3px);
+
+}
+
+.product-card img{
+  width: 100%;
+  height: 350px;
+  object-fit: fill;
+ 
+}
+
+.product-info{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 15px;
+  
+
+
+}
+
+.product-info h3{
+  font-size: 25px;  
+  
+}
+
+.product-info h4{
+  font-size: 15px;
+}
+
+.like{
+  color: red;
+  font-size: 20px;
+  width: fit-content;
+}
+.like:hover{
+  transform: translate(-1px);
+}
+
+.go-cart{
+  border: 1px solid rgb(244, 247, 248);
+  background-color: rgb(244, 247, 248);
+  border-radius: 5px;
+  box-shadow: 0 4px 20px rgba(56, 56, 56, 0.1);
+  padding: 5px;
+  height: auto;
+  width: max-content;
+  /* 텍스트에 따라 박스 사이즈 맞출때 사용 */
+ 
+}
+.go-cart:hover{
+  transform: translate(-1px);
+}

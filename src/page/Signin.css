@@ -13,11 +13,21 @@ background:  rgb(244, 247, 248);
   width: 450px;
   align-items: center;
   text-align: center;
+  border: 1px solid rgb(244, 247, 248);
+  border-radius: 10px;
+  box-shadow:0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
 }
+
+.login-container:hover{
+transform: translate(-3px);
+}
+
 
 .login-container h2{
   margin-bottom: 30px;
   font-weight: 600;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .login-container input{

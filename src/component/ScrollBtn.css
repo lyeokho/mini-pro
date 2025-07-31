@@ -1,0 +1,15 @@
+.scrollBtn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 8px 12px;
+  font-size: 15px;
+  border: none;
+  border-radius: 50px;
+  color: rgb(0, 0, 255);
+  background-color: rgb(240, 239, 236);
+}
+
+.scrollBtn:hover{
+  background-color: rgb(245, 237, 227);
+}
