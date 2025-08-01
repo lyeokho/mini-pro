@@ -52,13 +52,14 @@
   color: red;
   font-size: 20px;
   width: fit-content;
+  cursor: pointer;
 }
 .like:hover{
   transform: translate(-1px);
 }
 
 .go-cart{
-  border: 1px solid rgb(244, 247, 248);
+
   background-color: rgb(244, 247, 248);
   border-radius: 5px;
   box-shadow: 0 4px 20px rgba(56, 56, 56, 0.1);
@@ -66,6 +67,8 @@
   height: auto;
   width: max-content;
   /* 텍스트에 따라 박스 사이즈 맞출때 사용 */
+  cursor: pointer;
+  
  
 }
 .go-cart:hover{
