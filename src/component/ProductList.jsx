@@ -83,6 +83,13 @@ function ProductList(){
       price:15000,
       image:'/shop_img/product10.png'
     },
+    {
+      id:11,
+      name:'친환경 돗자리',
+      content:'재질:PP+오가닉코튼+TPU, 생분해 가능+방수 기능',
+      price:12000,
+      image:'/shop_img/product11.png'
+    },
   ]
   
   
