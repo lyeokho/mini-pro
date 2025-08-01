@@ -25,7 +25,7 @@ function App() {
     <Header />
 
   <Routes>
-   <Route path='/App' element={<div className='main'>
+   <Route path='/' element={<div className='main'>
     <video autoPlay loop muted>
       <source src={video} type='video/mp4'/>
     </video>
