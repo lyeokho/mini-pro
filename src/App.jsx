@@ -11,6 +11,7 @@ import { Route, Routes } from 'react-router-dom'
 import { useState } from 'react'
 import Modal from './Modal'
 import './Modal.css'
+import Home from './page/Home'
 
 
 
@@ -40,6 +41,7 @@ function App() {
 
     </div>} />
 
+    <Route path='/home' element={<Home/>} />
     <Route path='/shop' element={<Shop/>} />
     <Route path='/cart' element={<Cart/>} />
     <Route path='/about' element={<About/>} />
