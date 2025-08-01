@@ -10,7 +10,7 @@ function Header(){
     <>
     <div className='header'>
   <div className="header-section">
-    <Link to='/App'>HOME</Link>
+    <Link to='/'>HOME</Link>
     <Link to='/shop'>SHOP</Link>
     <Link to='/cart' >CART</Link>
     <Link to='/about' >ABOUT</Link>
