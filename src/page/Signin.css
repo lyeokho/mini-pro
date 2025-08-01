@@ -13,11 +13,24 @@ background:  rgb(244, 247, 248);
   width: 450px;
   align-items: center;
   text-align: center;
+  border: 1px solid rgb(244, 247, 248);
+  border-radius: 10px;
+  box-shadow:0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease;
+ 
+  
 }
+
+.login-container:hover{
+transform: translate(-1px);
+}
+
 
 .login-container h2{
   margin-bottom: 30px;
   font-weight: 600;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
 }
 
 .login-container input{
@@ -28,6 +41,7 @@ background:  rgb(244, 247, 248);
   font-size: 15px;
   border: 0.5px solid rgb(224, 219, 219);
   border-radius: 10px;
+
 }
 
 .login-container button{
@@ -38,6 +52,7 @@ background:  rgb(244, 247, 248);
   border-radius: 10px;
   font-size: 15px;
   font-weight: bold;
+  color: rgb(58, 53, 70);
 }
 .login-container button:hover{
   background: rgb(232, 239, 243);
